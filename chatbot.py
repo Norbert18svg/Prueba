@@ -1,13 +1,12 @@
-import streamlit as st
-import groq
-MODELOS = ['llama3-8b-8192', 'llama3-70b-8192','llama-3.3-70b-versatile']
 
 def configurar_pagina():
    st.set_page_config(page_title="BetoGPT", page_icon="🤖",)
    st.markdown("""<h1 style="background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 60px; font-family: arial, sans-serif;">BetoGPT</h1>""", unsafe_allow_html=True)
 
 
-
+import streamlit as st
+import groq
+MODELOS = ['llama3-8b-8192', 'llama3-70b-8192','llama-3.3-70b-versatile']
 
 
 
